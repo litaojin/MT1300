@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Build MT-3100 19.07.4
 
 on:
   repository_dispatch:
