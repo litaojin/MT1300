@@ -101,6 +101,7 @@ jobs:
         cp -rp ipt2socks /workdir/openwrt/package/lean/
         cp -rp redsocks2 /workdir/openwrt/package/lean/
         cp -rp kcptun /workdir/openwrt/package/lean/
+        cp -rp luci-app-zerotier /workdir/openwrt/package/lean/
 
         cd /workdir/openwrt
         mv /workdir/openwrt/feeds/gli_pub/shadowsocks-libev /workdir/openwrt/feeds/gli_pub/shadowsocks-libev.bak
